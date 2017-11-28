@@ -1,0 +1,134 @@
+
+PC@PC-PC MINGW32 ~
+$ cd
+
+PC@PC-PC MINGW32 ~
+$ mkdir hyfweek2
+
+PC@PC-PC MINGW32 ~
+$ ls
+AppData/             Downloads/         Music/           NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.blf                                       Recent@         Videos/
+'Application Data'@  Emptyfile/         'My Documents'@  NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/
+Contacts/            Favorites/         NetHood@         NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000002.regtrans-ms  Searches/
+Cookies@             hyfweek2/          NTUSER.DAT       ntuser.ini                                                                                    SendTo@
+Desktop/             Links/             ntuser.dat.LOG1  Pictures/                                                                                     'Start Menu'@
+Documents/           'Local Settings'@  ntuser.dat.LOG2  PrintHood@                                                                                    Templates@
+
+PC@PC-PC MINGW32 ~
+$ cd hyfweek2/
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ touch blank
+
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ ls
+blank
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ echo "Hello" > greetings.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ echo "Hello" >> greetings.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ echo "Hello" >> greetings.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ echo "Hello" >> greetings.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ echo "Hello" >> greetings.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ cat greetings.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ cp greetings.txt 1.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ cat 1.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ cp greetings.txt 2.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ cp greetings.txt 3.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ cp greetings.txt 4.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ cp greetings.txt 5.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greetings.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ echo "cat" > pets.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ echo "dog" >> pets.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ echo "hamster" >> pets.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ cat pets.txt
+cat
+dog
+hamster
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ echo "cat" > commands.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ echo "ls" >> commands.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ echo "pwd" >> commands.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ cat commands.txt
+cat
+ls
+pwd
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ sort pets.txt commands.txt | uniq
+cat
+dog
+hamster
+ls
+pwd
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ ^C
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ sort pets.txt commands.txt | uniq >> lovelyCommands.txt
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$ cat lovelyCommands.txt
+cat
+dog
+hamster
+ls
+pwd
+
+PC@PC-PC MINGW32 ~/hyfweek2
+$
