@@ -141,8 +141,6 @@ body{
     display:block;
     clear:both;
     position: relative;
-    box-sizing: border-box;
-    border-bottom:2px solid #F7A100;
 }
 .search-navigation{
     display: inline-block;
@@ -167,7 +165,6 @@ body{
 .search-navigation-list a{
     text-decoration: none;
     display:block;
-    width:100%;
     font-size:1.2em;
     padding: 10px 1.5rem;
     position: relative;
