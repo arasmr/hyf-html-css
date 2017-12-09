@@ -217,7 +217,7 @@ body{
     box-sizing: border-box;
     border:1px solid white;
     padding:3px;
-    background:transparent;
+    background:white;
     position: relative;
     float: left;
     display:block;
@@ -229,7 +229,7 @@ body{
     position: relative;
     box-sizing: border-box;
     border: 1px solid white;
-    background:transparent;
+    background:white;
     float: left;
     border-left:1px solid rgb(206, 186, 186);
     padding:3px;
@@ -243,7 +243,7 @@ body{
     border:1px solid white;
     width:15%;
     margin-left:2%;
-    background:transparent;
+    background:white;
     padding:3px;
     margin-bottom:3%;
     position: relative;
@@ -257,7 +257,7 @@ body{
     border:1px solid white;
     width:15%;
     margin-left:2%;
-    background:transparent;
+    background:white;
     padding:3px;
     margin-bottom:3%;
     position: relative;
