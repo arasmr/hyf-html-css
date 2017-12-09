@@ -727,6 +727,7 @@ footer{
 .social{
     width:50%;
     float:left;
+    padding-left:2%;
 }
 .social-details{
     float:left;
@@ -739,7 +740,7 @@ footer{
     text-decoration: none;
 }
 .copyright-details{
-    float: left;
+    float: right;
     width:30%;
 }@media only screen and (max-width:800px){
     .social{
