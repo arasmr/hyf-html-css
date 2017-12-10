@@ -1,0 +1,34 @@
+:wq vimden cikmak icin kullanilir.
+vim festival.txt dosya icine yazmak icin
+head dosyanin icinde ki herseyi gormek icin
+head -3 ilk 3 sira icin
+tail listelemk icin
+tail -3 en son 3 icin
+for var(variable) in {start..end}; do command1;
+			    command2;
+for i in {1..5}; do echo "Hello"; done
+for i in {1..5}; do echo "Hello"; echo "Merhaba"; done
+for i in {1..1000}; do echo $i; done
+sort -n numaratikli siralama yapiyor
+wc word count
+ wc numbers.txt
+wc -l numbers.txt
+tail numbers.txt last 10 number
+cat numbers.txt | wc -l
+head -700 numbers.txt | tail -39 
+vim run.sh
+===============
+mkdir test
+cd test
+echo "Hello" > greeting.txt
+echo "Merhaba >> greeting.txt
+cat text
+echo "bye" >goodbye.txt
+echo "tata" >> goodbye.txt
+cat goodbye.txt
+=================
+sh interpreter shell commands the script
+===
+std in 0 <
+std out 1 >
+std 2 2>
